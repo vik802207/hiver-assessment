@@ -1,0 +1,337 @@
+[
+  {
+    "id": "kb_001",
+    "intent": "device_hardware_issue",
+    "customer_query": "My iPhone 14 battery is draining extremely fast after updating to iOS 17. Down 40% in 2 hours!",
+    "brand_reply": "We can help look into battery usage with you. Try checking Settings > Battery to see top apps consuming power, and DM us your iOS version details.",
+    "resolution_steps": "Inspect Settings > Battery for background activity; verify battery health maximum capacity under Settings > Battery > Battery Health & Charging.",
+    "tags": [
+      "battery",
+      "drain",
+      "ios17",
+      "power",
+      "iphone"
+    ]
+  },
+  {
+    "id": "kb_002",
+    "intent": "device_hardware_issue",
+    "customer_query": "iPhone screen is flashing green and unresponsive to touch. Need help asap @AppleSupport",
+    "brand_reply": "Let's work together to fix screen issues. Force restart your iPhone (Press Vol Up, Vol Down, hold Side Button). If it persists, DM us to schedule a Genius Bar visit.",
+    "resolution_steps": "Perform hard reset. Check for physical/liquid damage. Schedule Genius Bar hardware repair if screen flickering persists.",
+    "tags": [
+      "screen",
+      "flicker",
+      "green",
+      "touch",
+      "unresponsive",
+      "hardware"
+    ]
+  },
+  {
+    "id": "kb_003",
+    "intent": "software_bug_update",
+    "customer_query": "App Store won't download any apps. Stuck on spinning wheel forever! @AppleSupport",
+    "brand_reply": "We hear you! Try signing out of Media & Purchases in Settings > [Your Name], restart your device, and sign back in. DM us if you still see issues.",
+    "resolution_steps": "Sign out of Apple ID Media & Purchases, restart device, toggle Wi-Fi/cellular connection, test App Store downloads.",
+    "tags": [
+      "app store",
+      "download",
+      "spinning",
+      "stuck",
+      "software"
+    ]
+  },
+  {
+    "id": "kb_004",
+    "intent": "software_bug_update",
+    "customer_query": "My Wi-Fi keeps disconnecting every 5 minutes on my MacBook Pro M2.",
+    "brand_reply": "Disconnecting Wi-Fi is frustrating. Go to System Settings > Network > Wi-Fi, click Forget This Network, then reconnect. DM us if you need further troubleshooting.",
+    "resolution_steps": "Forget Wi-Fi network, renew DHCP lease, restart router and Mac, clear system Wi-Fi preference plist files.",
+    "tags": [
+      "wifi",
+      "disconnect",
+      "macbook",
+      "network",
+      "macos"
+    ]
+  },
+  {
+    "id": "kb_005",
+    "intent": "account_apple_id_billing",
+    "customer_query": "I was charged $9.99 for a subscription I cancelled last week! Want a refund now @AppleSupport",
+    "brand_reply": "We can help you request a refund and manage subscriptions. Visit reportaproblem.apple.com to submit your claim directly. Send us a DM if you run into any trouble.",
+    "resolution_steps": "Direct user to reportaproblem.apple.com for billing claims. Guide user to Settings > Apple ID > Subscriptions to verify cancellation status.",
+    "tags": [
+      "charge",
+      "refund",
+      "billing",
+      "subscription",
+      "apple id"
+    ]
+  },
+  {
+    "id": "kb_006",
+    "intent": "account_apple_id_billing",
+    "customer_query": "My Apple ID is locked for security reasons and I can't access my iCloud emails!",
+    "brand_reply": "We know access is critical. You can unlock your account by resetting your password at iforgot.apple.com. DM us if you don't receive the verification code.",
+    "resolution_steps": "Guide to iforgot.apple.com account recovery flow. Escalated to human support if two-factor authentication recovery trusted device is lost.",
+    "tags": [
+      "apple id",
+      "locked",
+      "password",
+      "icloud",
+      "iforgot"
+    ]
+  },
+  {
+    "id": "kb_007",
+    "intent": "accessory_connectivity",
+    "customer_query": "Left AirPod Pro isn't playing any sound even though it says 100% battery.",
+    "brand_reply": "Sound issues can be annoying! Place both AirPods in case for 30 sec, open lid near iPhone, hold setup button for 15 sec until light flashes amber then white to reset.",
+    "resolution_steps": "Perform AirPod factory reset by holding setup button for 15 seconds. Clean ear tip contacts. Test with another iOS device.",
+    "tags": [
+      "airpods",
+      "left airpod",
+      "no sound",
+      "reset",
+      "bluetooth"
+    ]
+  },
+  {
+    "id": "kb_008",
+    "intent": "accessory_connectivity",
+    "customer_query": "Apple Watch Series 8 will not pair with my new iPhone 15 Pro. Gives pairing error 3.",
+    "brand_reply": "Let's get your Apple Watch paired! Ensure both devices are on Wi-Fi and Bluetooth is enabled. Reset network settings on iPhone if needed, or DM us for step-by-step help.",
+    "resolution_steps": "Ensure latest watchOS/iOS compatibility. Unpair old iPhone via Watch app. Erase Watch settings if unpair is stuck.",
+    "tags": [
+      "apple watch",
+      "pairing",
+      "error",
+      "bluetooth",
+      "iphone 15"
+    ]
+  },
+  {
+    "id": "kb_009",
+    "intent": "general_how_to",
+    "customer_query": "How do I take a screenshot on my iPad Air with Apple Pencil?",
+    "brand_reply": "Super easy! Swipe up with Apple Pencil from either bottom corner of your iPad screen to capture a quick screenshot. DM us if you want more Pencil tips!",
+    "resolution_steps": "Swipe up with Pencil from bottom corner. Or press Top button + Volume Up button simultaneously.",
+    "tags": [
+      "ipad",
+      "screenshot",
+      "apple pencil",
+      "how to",
+      "gesture"
+    ]
+  },
+  {
+    "id": "kb_010",
+    "intent": "order_shipping_repair",
+    "customer_query": "Where is my repair status for Dispatch Repair G7391823? It has been 5 days!",
+    "brand_reply": "You can track your repair progress anytime at mysupport.apple.com using your Repair ID. Please DM us your Repair ID so we can inspect details securely.",
+    "resolution_steps": "Direct to mysupport.apple.com. Request Repair ID via DM to verify repair facility status (Received, Diagnosing, Repaired, Shipped).",
+    "tags": [
+      "repair",
+      "status",
+      "dispatch",
+      "genius bar",
+      "shipping"
+    ]
+  },
+  {
+    "id": "kb_011",
+    "intent": "device_hardware_issue",
+    "customer_query": "iPhone speaker sound is distorted and crackling during phone calls",
+    "brand_reply": "Clean the receiver with a soft brush and test sound in Settings > Sounds & Haptics. DM us if it needs repair.",
+    "resolution_steps": "Clean receiver mesh, check mono audio settings, schedule hardware repair.",
+    "tags": [
+      "iphone",
+      "speaker",
+      "sound",
+      "distorted",
+      "crackling",
+      "during",
+      "phone",
+      "calls"
+    ]
+  },
+  {
+    "id": "kb_012",
+    "intent": "device_hardware_issue",
+    "customer_query": "My iPad Pro screen has a dark spot near the camera",
+    "brand_reply": "Dark spots can indicate display damage. DM us so we can check your warranty coverage and repair options.",
+    "resolution_steps": "Inspect display panel hardware, run diagnostic via DM link.",
+    "tags": [
+      "ipad",
+      "screen",
+      "dark",
+      "spot",
+      "near",
+      "camera"
+    ]
+  },
+  {
+    "id": "kb_013",
+    "intent": "software_bug_update",
+    "customer_query": "Camera app freezes whenever I switch to Cinematic Mode on iOS 17.4",
+    "brand_reply": "Sorry for the freeze! Try force closing Camera and restarting your iPhone. DM us if this continues.",
+    "resolution_steps": "Force restart camera app, reset all settings if camera daemon crashes.",
+    "tags": [
+      "camera",
+      "freezes",
+      "whenever",
+      "switch",
+      "cinematic",
+      "mode",
+      "17.4"
+    ]
+  },
+  {
+    "id": "kb_014",
+    "intent": "software_bug_update",
+    "customer_query": "iMessage stuck on 'Waiting for Activation' after moving to e-SIM",
+    "brand_reply": "Activation delays can happen. Toggle iMessage OFF in Settings > Messages, turn Airplane Mode on for 30s, then toggle iMessage back ON.",
+    "resolution_steps": "Toggle iMessage/FaceTime, verify Date & Time automatic setting, check carrier SMS capability.",
+    "tags": [
+      "imessage",
+      "stuck",
+      "'waiting",
+      "activation'",
+      "after",
+      "moving",
+      "e-sim"
+    ]
+  },
+  {
+    "id": "kb_015",
+    "intent": "account_apple_id_billing",
+    "customer_query": "Received email about unknown $49.99 charge from iTunes. Is this real?",
+    "brand_reply": "Be cautious of phishing! Check official purchase history at reportaproblem.apple.com before clicking email links. DM us to verify.",
+    "resolution_steps": "Identify legitimate vs phishing receipts. Inspect account purchase history.",
+    "tags": [
+      "received",
+      "email",
+      "about",
+      "unknown",
+      "$49.99",
+      "charge",
+      "from",
+      "itunes.",
+      "this",
+      "real?"
+    ]
+  },
+  {
+    "id": "kb_016",
+    "intent": "account_apple_id_billing",
+    "customer_query": "I need to change my Apple ID primary email address because I lost my old domain",
+    "brand_reply": "You can update your Apple ID email at appleid.apple.com under Account > Sign-In and Security. DM us if you get an error.",
+    "resolution_steps": "Update primary email on appleid.apple.com. Sign out of all devices before updating.",
+    "tags": [
+      "need",
+      "change",
+      "apple",
+      "primary",
+      "email",
+      "address",
+      "because",
+      "lost",
+      "domain"
+    ]
+  },
+  {
+    "id": "kb_017",
+    "intent": "accessory_connectivity",
+    "customer_query": "MagSafe Battery Pack stops charging my phone at 80%",
+    "brand_reply": "This is normal heat protection! Optimized Battery Charging pauses at 80% to protect battery longevity. DM us with any questions.",
+    "resolution_steps": "Explain Optimized Battery Charging thermal limits.",
+    "tags": [
+      "magsafe",
+      "battery",
+      "pack",
+      "stops",
+      "charging",
+      "phone"
+    ]
+  },
+  {
+    "id": "kb_018",
+    "intent": "accessory_connectivity",
+    "customer_query": "AirPods mic picks up background noise and my voice sounds robotized on calls",
+    "brand_reply": "Try forgetting AirPods in Bluetooth settings and repairing them. Make sure the mic opening is free of lint.",
+    "resolution_steps": "Clean mic grilles on AirPod stems, reset Bluetooth pairing.",
+    "tags": [
+      "airpods",
+      "picks",
+      "background",
+      "noise",
+      "voice",
+      "sounds",
+      "robotized",
+      "calls"
+    ]
+  },
+  {
+    "id": "kb_019",
+    "intent": "general_how_to",
+    "customer_query": "How do I transfer photos from my iPhone to Mac without iCloud?",
+    "brand_reply": "You can use AirDrop or connect via USB and open Image Capture on Mac. DM us if you need detailed instructions!",
+    "resolution_steps": "Guide user on AirDrop settings or USB Image Capture app.",
+    "tags": [
+      "transfer",
+      "photos",
+      "from",
+      "iphone",
+      "without",
+      "icloud?"
+    ]
+  },
+  {
+    "id": "kb_020",
+    "intent": "general_how_to",
+    "customer_query": "How do I set up Family Sharing for Apple One subscription?",
+    "brand_reply": "Head to Settings > [Your Name] > Family Sharing > Set Up Your Family, then invite your family members via iMessage.",
+    "resolution_steps": "Family Sharing configuration flow.",
+    "tags": [
+      "family",
+      "sharing",
+      "apple",
+      "subscription?"
+    ]
+  },
+  {
+    "id": "kb_021",
+    "intent": "order_shipping_repair",
+    "customer_query": "Trade-in kit for my old iPhone hasn't arrived in 10 days",
+    "brand_reply": "Trade-in kits usually take 3-5 business days. DM us your Trade-in Quote Number so we can resend the shipping kit.",
+    "resolution_steps": "Lookup Trade-in quote ID, re-issue trade-in shipping box.",
+    "tags": [
+      "trade-in",
+      "iphone",
+      "hasn't",
+      "arrived",
+      "days"
+    ]
+  },
+  {
+    "id": "kb_022",
+    "intent": "order_shipping_repair",
+    "customer_query": "Apple Store order status says 'Action Required' - what does it mean?",
+    "brand_reply": "Action Required usually means payment re-authorization or trade-in verification is needed. Check your order email or DM us your Order ID.",
+    "resolution_steps": "Verify credit card authorization or trade-in serial confirmation.",
+    "tags": [
+      "apple",
+      "store",
+      "order",
+      "status",
+      "says",
+      "'action",
+      "required'",
+      "what",
+      "does",
+      "mean?"
+    ]
+  }
+]
