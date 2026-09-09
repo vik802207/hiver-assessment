@@ -36,6 +36,15 @@ Open `http://localhost:3000` in your browser to interactively test live tweets, 
 
 ---
 
+## Screenshot
+
+![Screenshot](https://github.com/vik802207/hiver-assessment/blob/main/img/Screenshot%20(41).png)
+![Screenshot](https://github.com/vik802207/hiver-assessment/blob/main/img/Screenshot%20(42).png)
+![Screenshot](https://github.com/vik802207/hiver-assessment/blob/main/img/Screenshot%20(43).png)
+![Screenshot](https://github.com/vik802207/hiver-assessment/blob/main/img/Screenshot%20(44).png)
+
+---
+
 ## 📊 Headline Benchmark Summary
 
 | Model Architecture | Intent Macro F1 | Escalation Macro F1 | Reply ROUGE-L | LLM Judge Rating (1-5) | Human Alignment ($r$) |
